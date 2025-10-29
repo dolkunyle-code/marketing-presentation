@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>完整演示 — 含四驱收益引擎系统</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{--brand:#cc5800;--bg:#111315;--panel:#1b1f23;--muted:#9aa3ab}
+    html,body{background:var(--bg);color:#fff;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+    .glass{background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.12)}
+    .ring-soft{box-shadow:0 0 0 10px rgba(255,255,255,.03),0 10px 30px rgba(0,0,0,.45)}
+    @keyframes rotateGear{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+    .gear-spin{animation:rotateGear 20s linear infinite}
+  </style>
+</head>
+<body>
+<main class="max-w-6xl mx-auto p-6 md:p-10 space-y-8">
+
+  <section id="s6" class="glass rounded-3xl p-8 md:p-10">
+    <h2 class="text-2xl md:text-3xl font-bold text-center">🏆 实战证明：内容驱动增长案例</h2>
+    <p class="text-center text-white/70 mt-4">（此处为原有实战证明内容）</p>
+  </section>
+
+  <section id="s6a" class="glass rounded-3xl p-8 md:p-10">
+    <h2 class="text-center text-2xl md:text-3xl font-bold">收益引擎</h2>
+
+    <div class="relative mt-10 grid place-items-center pb-36 md:pb-40">
+      <svg class="absolute w-[720px] max-w-full h-[560px] -z-10" viewBox="0 0 720 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="g" x1="0" y1="0" x2="720" y2="560" gradientUnits="userSpaceOnUse">
+            <stop stop-color="white" stop-opacity="0.05"/>
+            <stop offset="1" stop-color="white" stop-opacity="0.01"/>
+          </linearGradient>
+        </defs>
+        <path d="M120 140 h360 l60 60 h60 v80 h-60 v40 h60 v80 h-60 l-60 60 H120 l-60 -60 v-200 l60 -60 z" fill="url(#g)" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+      </svg>
+
+      <div class="grid place-items-center w-52 h-52 rounded-2xl bg-[#0f1214] border border-white/10 ring-soft">
+        <div class="text-center">
+          <div class="text-sm text-white/70 tracking-wide">收益引擎</div>
+          <div class="text-xl font-extrabold">Revenue Engine</div>
+        </div>
+      </div>
+
+      <div class="absolute -translate-x-44 -translate-y-28 md:-translate-x-60 md:-translate-y-36">
+        <div class="relative w-44 h-44 md:w-48 md:h-48 rounded-full bg-emerald-500/90 flex flex-col items-center justify-center text-center ring-soft gear-spin">
+          <span class="absolute -top-2 -right-2 w-7 h-7 rounded-full bg-black/70 border border-white/20 grid place-items-center text-emerald-300 text-xs font-bold">1</span>
+          <div class="text-white font-bold text-lg">原创内容</div>
+          <div class="text-white/90 text-sm">建立信任</div>
+        </div>
+      </div>
+
+      <div class="absolute translate-x-44 -translate-y-28 md:translate-x-60 md:-translate-y-36">
+        <div class="relative w-44 h-44 md:w-48 md:h-48 rounded-full bg-indigo-500/90 flex flex-col items-center justify-center text-center ring-soft gear-spin">
+          <span class="absolute -top-2 -right-2 w-7 h-7 rounded-full bg-black/70 border border-white/20 grid place-items-center text-indigo-200 text-xs font-bold">2</span>
+          <div class="text-white font-bold text-lg">Meta 广告</div>
+          <div class="text-white/90 text-sm">放大有效内容</div>
+        </div>
+      </div>
+
+      <div class="absolute translate-x-44 translate-y-20 md:translate-x-60 md:translate-y-32">
+        <div class="relative w-44 h-44 md:w-48 md:h-48 rounded-full bg-violet-500/90 flex flex-col items-center justify-center text-center ring-soft gear-spin">
+          <span class="absolute -top-2 -right-2 w-7 h-7 rounded-full bg-black/70 border border-white/20 grid place-items-center text-violet-200 text-xs font-bold">3</span>
+          <div class="text-white font-bold text-lg">达人合作</div>
+          <div class="text-white/90 text-sm">增强可信度</div>
+        </div>
+      </div>
+
+      <div class="absolute -translate-x-44 translate-y-20 md:-translate-x-60 md:translate-y-32">
+        <div class="relative w-44 h-44 md:w-48 md:h-48 rounded-full bg-[#1c120b] border border-[var(--brand)]/70 flex flex-col items-center justify-center text-center ring-soft gear-spin">
+          <span class="absolute -top-2 -right-2 w-7 h-7 rounded-full bg-black/70 border border-white/20 grid place-items-center text-[var(--brand)] text-xs font-extrabold">4</span>
+          <div class="text-[var(--brand)] font-extrabold text-lg">转化漏斗</div>
+          <div class="text-[var(--brand)]/90 text-sm">将流量变顾客</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4 flex items-center justify-center gap-4 text-white/80 text-lg">
+      <span class="px-3 py-1 rounded-lg bg-white/5 border border-white/10">1</span>
+      <span class="text-white/50">→</span>
+      <span class="px-3 py-1 rounded-lg bg-white/5 border border-white/10">2</span>
+      <span class="text-white/50">→</span>
+      <span class="px-3 py-1 rounded-lg bg-white/5 border border-white/10">3</span>
+      <span class="text-white/50">→</span>
+      <span class="px-3 py-1 rounded-lg bg-white/5 border border-white/10">4</span>
+    </div>
+
+    <div class="max-w-3xl mx-auto mt-6">
+      <div class="rounded-2xl p-6 bg-black/50 border border-white/10 text-center">
+        <p class="text-white text-lg md:text-xl">“缺一个齿轮，机器就熄火。四个全开，它就能 <span class="text-[var(--brand)] font-extrabold">24/7</span> 打印潜在客户。”</p>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
